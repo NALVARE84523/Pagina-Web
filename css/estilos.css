@@ -8,12 +8,34 @@ body{
     font-family: 'open sans';
 }
 
+.boton1,
+.boton2,
+.boton3,
+.boton4,
+.boton5{
+    background: linear-gradient(102deg, #4551b5 40%, #543fd7);
+    color: #fff;
+    display: inline-block;
+    padding: 5px 5px;
+    border-radius: .25rem;
+    min-width: 50px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: key 1s infinite;
+}
+
 .shadow-lg {
     font-size: 50px;
     margin: 10px;
     padding: 10px;
     text-align: center;
 }
+
+.btn btn-primary btn-lg {
+    padding: 20px;
+    margin: 50px;
+}
+
 .contenedor{
     padding: 60px 0;
     width: 90%;
@@ -438,21 +460,7 @@ section.fuente{
     opacity: 50%;
 }
 
-.boton1,
-.boton2,
-.boton3,
-.boton4,
-.boton5{
-    background: linear-gradient(102deg, #4551b5 40%, #543fd7);
-    color: #fff;
-    display: inline-block;
-    padding: 5px 5px;
-    border-radius: .25rem;
-    min-width: 50px;
-    text-decoration: none;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
-    animation: key 1s infinite;
-}
+
 
 @keyframes key {
     0% {
