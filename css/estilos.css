@@ -13,7 +13,7 @@ body{
 .boton3,
 .boton4,
 .boton5{
-    background: linear-gradient(102deg, #4551b5 40%, #543fd7);
+    background: linear-gradient(102deg, #707285 40%, #543fd7);
     color: #fff;
     display: inline-block;
     padding: 5px 5px;
@@ -31,10 +31,13 @@ body{
     text-align: center;
 }
 
-.btn btn-primary btn-lg {
-    padding: 20px;
-    margin: 50px;
+.btn-primary {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
 }
+
+
 
 .contenedor{
     padding: 60px 0;
